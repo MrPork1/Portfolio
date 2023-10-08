@@ -1,53 +1,50 @@
+"use client";
+
+
 import React from "react";
+import localFont from 'next/font/local'
+import Education from "../components/about/Education";
+import WorkExperience from "../components/about/WorkExperience";
+import Button from "../components/Button";
+import Link from "next/link";
+
+const myFont = localFont({ src: '../DroidSerif.ttf' });
 
 const About = () => {
   return <div>
-    <p>I have over a decade of computer and programming experience both in college and in my spare
-      time. Business skills mixed together with leadership experiences make for a well-rounded full stack
-      developer.
-    </p>
-    <div className="rounded-xl bg-gray-100 shadow-md m-5">
-      <p className="text-lg pt-5 pl-5">Skills and abilities</p>
-      <ul className="list-disc pt-5 pl-10 pb-5">
-        <li>Have worked on an array of projects in multiple teams ranging from creating android apps
-          to using databases to store data</li>
-        <li>Languages; C# (expert), Kotlin (extensive), Java (working), JavaScript (expert), and
-          TypeScript (extensive), and Python (working)
-        </li>
-        <li>Frameworks; ReactJS, React Native, and Angular</li>
-        <li>Developing games using C#</li>
-        <li>Programming the completion of electrical circuits using motherboards and Lua#</li>
-        <li> Strong communication skills that allow me to collaborate well in diverse team
-          environments</li>
-
-      </ul>
+    <div id="headerSection" className={myFont.className}>
+      <p className="text-[34px] text-center mt-10">Hello, my name is Sean. I am a Software Developer living in Seattle, WA.</p>
     </div>
-    <div className="rounded-xl bg-gray-100 shadow-md m-5">
-      <p className="text-lg pt-5 pl-5">Education</p>
-      <p className="p-5">Bellevue College</p>
-      <p className="p-1">Bachelor of Applied Science in Software Development | 2020 - 2023</p>
-      <ul className="list-disc pt-5 pl-10 pb-5">
-        <li>Earned a 3.769 GPA with completion of all projects</li>
-        <li>Received high marks from all professors</li>
-      </ul>
-      <p className="p-5">Specific Classes</p>
-      <ul className="p-5">
-        • Communication in a Diverse Workspace
-        • Advanced Communication in Business & Technology
-        • Data Structures and Algorithms
-        • Advanced Data Access Techniques
-        • Application Architecture
-        • Information Security Essentials
-        • Software Testing
-        • Developing Mobile Applications
-        • Project Management for IT
-        • Enterprise Data Applications
-        • Ethical Issues in IT
-        • Business of IT: Legal Regulatory Business Environment
-      </ul>
-
+    <div className="grid grid-cols-4 p-10 mx-20">
+      <div className="col-span-2">
+        <img src='/seanwebpicture.webp' alt="Picture of Sean Kelly"></img>
+      </div>
+      <div className="col-span-2">
+        <div id="headerSectionAbout" className={myFont.className}>
+          <p className="text-[56px] mt-10">About</p>
+        </div>
+        <p className="mt-5">I am a <b>Software Developer</b> with
+          over a decade of computer and programming experience both in college and in my spare time.
+          Business skills mixed together with leadership experiences make for a well-rounded full-stack developer.</p>
+        <div className="flex">
+          <a href="tel:+4255234037" className="text-blue-600 hover:underline my-5">+1 (425)-523-4037</a>
+          <a href="mailto:seankel@comcast.net" className="text-blue-600 hover:underline m-5">seankel@comcast.net</a>
+          <a href="https://www.linkedin.com/in/sean-kelly-382886221" target="_blank" className="text-blue-600 hover:underline m-5">Linkedin</a>
+          <a href="https://github.com/MrPork1" target="_blank" className="text-blue-600 hover:underline m-5">Github</a>
+          <a href="./SeanKelly_Resume_Bachelors.pdf" download className="text-blue-600 hover:underline m-5">Resume</a>
+        </div>
+        <div className="flex">
+          <Button title="Education" onPress={"#education"} />
+          <div className="mx-0.5"></div>
+          <Button title="Work Experience" onPress={'#workexperience'} />
+          <div className="mx-0.5"></div>
+          <Button title="Projects" onPress={'/projects'} />
+        </div>
+      </div>
     </div>
-  </div>;
+    <Education />
+    <WorkExperience />
+  </div>
 };
 
 export default About;
