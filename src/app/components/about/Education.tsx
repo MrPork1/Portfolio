@@ -5,19 +5,19 @@ const helvLightReg = localFont({ src: '../../HelveticaLightRegular.otf' });
 
 const Education = () => {
   return <div>
-    <div className={`${helvLightReg.className} m-10 bg-[#E8E6E6] p-10 scroll-smooth`} id="education">
+    <div className={`${helvLightReg.className} m-2 p-0 md:m-10 md:p-10 lg:m-10 lg:p-10 bg-[#E8E6E6] scroll-smooth`} id="education">
       <div className="flex items-center justify-center">
         <div className="text-left">
           <p className="text-[38px] mb-5">Education</p>
-          <div className="flex">
+          <div className="flex-none sm:flex-none md:flex lg:flex">
             <div className="flex flex-col">
               <p><b>Bachelor of Applied Science in Software Development</b></p>
               <p className="my-2">Bellevue College</p>
               <p>3.769 GPA</p>
             </div>
-            <div className="ml-10 text-[18px]">
-              <p>Classes</p>
-              <div className="flex flex-col">
+            <div className="ml-0 sm:ml-0 md:ml-10 lg:ml-10 mt-8 sm:mt-8 md:mt-0 lg:mt-0 text-[18px]">
+              <p className="font-bold sm:font-bold md:font-normal lg:font-normal">Classes</p>
+              <div className="flex flex-row">
                 <ul className="ml-7 list-disc">
                   <li>Communication in a Diverse Workspace</li>
                   <li>Data Structures and Algorithms</li>

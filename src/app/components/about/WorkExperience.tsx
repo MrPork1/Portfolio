@@ -6,27 +6,27 @@ const helvLightReg = localFont({ src: '../../HelveticaLightRegular.otf' });
 const WorkExperience = () => {
   return <div>
     <div className={helvLightReg.className}>
-      <div className="grid grid-cols-2" id="workexperience">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2" id="workexperience">
         <div className="col-span-full text-[38px] h-24 border-b border-t border-black flex items-center justify-center">
-          <p className="mr-[375px]">Work Experience</p>
+          <p className="mr-0 md:mr-[375px] lg:mr[375px]">Work Experience</p>
         </div>
         <div className="col-span-full h-10">
         </div>
         <div></div> {/*This div is here so two columns exist. */}
         <div>
-          <ol className="border-l border-black dark:border-black">
+          <ol className="border-l border-black dark:border-black ml-5 md:ml-0 lg:ml-0">
             <li>
               <div className="flex-start flex items-center pt-3">
                 <div className="-ml-[6px] mr-3 h-[11px] w-[11px] rounded-full bg-black dark:bg-neutral-500"></div>
-                <div className="relative right-[350px]">
+                <div className="md:relative md:right-[350px]">
                   <p>envko</p>
                   <p>Software Developer | Product Owner</p>
                   <p>January 2023 - June 2023</p>
                 </div>
               </div>
-              <div className="mb-6 ml-4 mt-[-49px] w-4/5">
+              <div className="mb-6 mt-[30px] mr-5 md:mr-0 md:ml-4 md:w-4/5 md:mt-[-49px]">
                 <h4 className="text-[16px]">
-                  <ul className="ml-20 list-disc leading-7">
+                  <ul className="ml-10 md:ml-20 list-disc leading-7">
                     <li>Communicated with the team as the product owner, tasked with the overall vision of the project and the completion of the project.</li>
                     <li>Delegated tasks to team members, clearly communicating what must be accomplished.</li>
                     <li>Created the profile screen.
@@ -45,15 +45,15 @@ const WorkExperience = () => {
             <li>
               <div className="flex-start flex items-center pt-3">
                 <div className="-ml-[6px] mr-3 h-[11px] w-[11px] rounded-full bg-black dark:bg-neutral-500"></div>
-                <div className="relative right-[350px]">
+                <div className="md:relative md:right-[350px]">
                   <p>Regal</p>
                   <p>Team Lead | Floor Staff</p>
                   <p>May 2019 - January 2022</p>
                 </div>
               </div>
-              <div className="mb-6 ml-4 mt-[-49px] w-4/5">
+              <div className="mb-6 mt-[30px] mr-5 md:mr-0 md:ml-4 md:w-4/5 md:mt-[-49px]">
                 <h4 className="text-[16px]">
-                  <ul className="ml-20 list-disc leading-7">
+                <ul className="ml-10 md:ml-20 list-disc leading-7">
                     <li>Money handling with the cashiers and food related items.</li>
                     <li>Helped customers with their problems using excellent customer relation skills
                       that allowed me to communicate well and understand the customers needs and help to fulfill them.</li>

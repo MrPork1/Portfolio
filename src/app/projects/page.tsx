@@ -19,10 +19,10 @@ const ProjectsPage = () => {
     </div>
     <div id="androidstudioskotlin">
       <div className="flex items-center justify-center mt-5">
-        <div className="w-[45%] text-center">
+        <div className="w-[100%] md:w-[45%] text-center">
           <p className={`${myFont.className} text-[20px] font-bold`}>envko - React Native, Mobile iOS App (Published to the Apple Store)</p>
-          <div className="grid grid-cols-2 mt-5 text-[17px]">
-            <div>
+          <div className="grid grid-cols-1 md:grid-cols-2 mt-5 mr-5 md:mr-0 text-[17px]">
+            <div className="ml-10 md:ml-0">
               <ul className="list-disc">
                 <li>Communicated with the team as the <b>product owner</b>, tasked with the overall vision of the project and the completion of the project.</li>
                 <li><b>Delegated</b> tasks to team members, clearly communicating what must be accomplished.</li>
@@ -45,7 +45,7 @@ const ProjectsPage = () => {
         </div>
       </div>
       <div className="flex justify-center mt-5">
-        <div className="grid grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mx-2 md:mx-0 lg:mx-0">
           <div>
             <img src="/envkopictures/login.jpg" className="w-[220px]" style={{ borderRadius: 30 }}></img>
           </div>
@@ -122,7 +122,7 @@ const ProjectsPage = () => {
         </div>
       </div>
       <div className="flex justify-center mt-5">
-        <div className="grid grid-cols-4 gap-10">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mx-2 md:mx-0 lg:mx-0">
           <div>
             <img src="/androidstudioskotlin/pic5.webp"></img>
           </div>
@@ -150,9 +150,9 @@ const ProjectsPage = () => {
     </div>
     <div id="angularframeworkwebappwithazureserver">
       <div className="flex items-center justify-center">
-        <div className="w-[50%] text-center sm:w-[23.5%] md:w-[23.5%]">
+        <div className="w-[100%] md:w-[23.5%] text-center">
           <a href="https://csport.azurewebsites.net" target="_blank" className={`${myFont.className} text-[20px] font-bold underline`}>Angular Framework Web App with Azure Server</a>
-          <ul className="text-left list-disc mt-5">
+          <ul className="text-left list-disc mt-5 ml-10 md:ml-0 mr-5 md:mr-0">
             <li className="text-[17px]">Added login and signup authentication with firebase.</li>
             <li className="text-[17px]">Added a fully functional calendar that adds events from the database,
               with tooltips for easy viewing of information on a specific day.</li>
@@ -161,7 +161,7 @@ const ProjectsPage = () => {
           </ul>
         </div>
       </div>
-      <div className="flex justify-center mt-5 mb-20">
+      <div className="flex flex-wrap justify-center mt-5 mb-20">
         <div className="bg-[#074151] text-white px-4 py-2 text-[14px] tracking-[0.2em] mr-5">Angular framework</div>
         <div className="bg-[#074151] text-white px-8 py-2 text-[14px] tracking-[0.2em] mr-5">Azure server</div>
         <div className="bg-[#074151] text-white px-8 py-2 text-[14px] tracking-[0.2em]">Typescript</div>
@@ -169,16 +169,16 @@ const ProjectsPage = () => {
     </div>
     <div id="reactjswithapi">
       <div className="flex items-center justify-center">
-        <div className="w-[50%] text-center sm:w-[23.5%] md:w-[23.5%]">
+        <div className="w-[100%] md:w-[23.5%] text-center">
           <a href="https://mrpork1.github.io/singlepageapp/" target="_blank" className={`${myFont.className} text-[20px] font-bold underline`}>ReactJS with API</a>
-          <ul className="text-left list-disc mt-5">
+          <ul className="text-left list-disc mt-5 ml-10 md:ml-0 mr-5 md:mr-0">
             <li className="text-[17px]">Implemented search feature that queries API for relative information</li>
             <li className="text-[17px]">Added filter that queries the API by certain variables</li>
             <li className="text-[17px]"> Added result list that is easily searchable with an added search bar</li>
           </ul>
         </div>
       </div>
-      <div className="flex justify-center mt-5 mb-20">
+      <div className="flex flex-wrap justify-center mt-5 mb-20">
         <div className="bg-[#074151] text-white px-4 py-2 text-[14px] tracking-[0.2em] mr-5">ReactJS</div>
         <div className="bg-[#074151] text-white px-8 py-2 text-[14px] tracking-[0.2em] mr-5">API</div>
         <div className="bg-[#074151] text-white px-8 py-2 text-[14px] tracking-[0.2em]">Typescript</div>
@@ -186,16 +186,16 @@ const ProjectsPage = () => {
     </div>
     <div id="sqldatabasemanipulation">
       <div className="flex items-center justify-center">
-        <div className="w-[50%] text-center sm:w-[23.5%] md:w-[23.5%]">
+        <div className="w-[100%] md:w-[23.5%] text-center">
           <a href="https://github.com/MrPork1/ISIT420-Project" target="_blank" className={`${myFont.className} text-[20px] font-bold underline`}>SQL and database manipulation</a>
-          <ul className="text-left list-disc mt-5">
+          <ul className="text-left list-disc mt-5 ml-10 md:ml-0 mr-5 md:mr-0">
             <li className="text-[17px]">Queried thousands of excel data using Linux and Apache Pig</li>
             <li className="text-[17px]">Made front end UI for viewing queried data and filters to manipulate data using jQuery</li>
           </ul>
         </div>
       </div>
       <div className="flex justify-center mt-5">
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div>
             <Image src="/ISIT420pictures/Picture1.png" alt="Query1" width={325} height={0} />
           </div>
@@ -208,7 +208,7 @@ const ProjectsPage = () => {
           <div>
             <Image src="/ISIT420pictures/Picture4.png" alt="Query4" width={325} height={0} />
           </div>
-          <div className="col-span-2">
+          <div className="col-span-1 md:col-span-2">
             <Image src="/ISIT420pictures/SQLDatabaseDiagram.png" alt="SQLDatabaseDiagram" width={600} height={0} />
           </div>
         </div>
@@ -221,9 +221,9 @@ const ProjectsPage = () => {
     </div>
     <div id="asp.net">
       <div className="flex items-center justify-center">
-        <div className="w-[50%] text-center sm:w-[23.5%] md:w-[23.5%]">
+        <div className="w-[100%] md:w-[23.5%] text-center">
           <a href="https://github.com/MrPork1/ISIT320-EasyEntry" target="_blank" className={`${myFont.className} text-[20px] font-bold underline`}>ASP.NET</a>
-          <ul className="text-left list-disc mt-5">
+          <ul className="text-left list-disc mt-5 ml-10 md:ml-0 mr-5 md:mr-0">
             <li className="text-[17px]">Added JSON enhancements that moved data from the barcode to the backend easier</li>
           </ul>
         </div>
@@ -235,14 +235,14 @@ const ProjectsPage = () => {
     </div>
     <div id="webdevelopmentcanvasgame">
       <div className="flex items-center justify-center">
-        <div className="w-[50%] text-center sm:w-[23.5%] md:w-[23.5%]">
+        <div className="w-[100%] md:w-[23.5%] text-center">
           <a href="https://mrpork1.github.io/tmawesome---Canvas-Game/" target="_blank" className={`${myFont.className} text-[20px] font-bold underline`}>Web Development (HTML, CSS, Boostrap, Javascript)</a>
-          <ul className="text-left list-disc mt-5">
+          <ul className="text-left list-disc mt-5 ml-10 md:ml-0 mr-5 md:mr-0">
             <li className="text-[17px]"> Created canvas game with added sounds, box colliders, and health counter</li>
           </ul>
         </div>
       </div>
-      <div className="flex justify-center mt-5 mb-20">
+      <div className="flex flex-wrap justify-center mt-5 mb-20">
         <div className="bg-[#074151] text-white px-4 py-2 text-[14px] tracking-[0.2em] mr-5">HTML</div>
         <div className="bg-[#074151] text-white px-8 py-2 text-[14px] tracking-[0.2em] mr-5">Bootstrap</div>
         <div className="bg-[#074151] text-white px-8 py-2 text-[14px] tracking-[0.2em] mr-5">Javascript</div>
