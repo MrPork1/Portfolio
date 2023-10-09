@@ -56,7 +56,7 @@ const WorkExperience = () => {
                   <ul className="ml-20 list-disc leading-7">
                     <li>Money handling with the cashiers and food related items.</li>
                     <li>Helped customers with their problems using excellent customer relation skills
-                      that allowed me to communicate well and understand the customers' needs and help to fulfill them.</li>
+                      that allowed me to communicate well and understand the customers needs and help to fulfill them.</li>
                     <li>Lead the floor staff.</li>
                     <li>Managed end of night money and safe operations.</li>
                     <li>Oversaw projectors and all technical related issues..</li>
