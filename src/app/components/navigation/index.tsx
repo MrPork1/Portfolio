@@ -1,20 +1,26 @@
 "use client";
-import { useState } from "react";
-import Navbar from "./navbar";
-import Sidebar from "./navbar/sidebar";
+import { Navbar } from 'flowbite-react';
 
-const Navigation = () => {
-  // toggle sidebar
-  const [isOpen, setIsOpen] = useState(false);
-  const toggle = () => {
-    setIsOpen(!isOpen);
-  };
+export default function DefaultNavbar() {
   return (
-    <>
-      <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={toggle} />
-    </>
-  );
-};
-
-export default Navigation;
+    <Navbar
+      fluid
+      border>
+      <Navbar.Toggle />
+      <Navbar.Collapse>
+        <Navbar.Link
+          href="/about">
+          <p>
+            About
+          </p>
+        </Navbar.Link>
+        <Navbar.Link
+          href="/projects">
+          <p>
+            Projects
+          </p>
+        </Navbar.Link>
+      </Navbar.Collapse>
+    </Navbar>
+  )
+}
