@@ -9,9 +9,10 @@ import Button from "../components/Button";
 import Link from "next/link";
 
 const myFont = localFont({ src: '../DroidSerif.ttf' });
+const helvLightReg =  localFont({ src: '../HelveticaLightRegular.otf' });
 
 const About = () => {
-  return <div>
+  return <div className={helvLightReg.className}>
     <div id="headerSection" className={myFont.className}>
       <p className="text-[34px] text-center mt-10">Hello, my name is Sean. I am a Software Developer living in Seattle, WA.</p>
     </div>
@@ -23,15 +24,15 @@ const About = () => {
         <div id="headerSectionAbout" className={myFont.className}>
           <p className="text-[56px] mt-10">About</p>
         </div>
-        <p className="mt-5">I am a <b>Software Developer</b> with
+        <p className={`${helvLightReg.className} mt-5 text-[18px] leading-10`}>I am a <b>Software Developer</b> with
           over a decade of computer and programming experience both in college and in my spare time.
           Business skills mixed together with leadership experiences make for a well-rounded full-stack developer.</p>
         <div className="flex">
-          <a href="tel:+4255234037" className="text-blue-600 hover:underline my-5">+1 (425)-523-4037</a>
-          <a href="mailto:seankel@comcast.net" className="text-blue-600 hover:underline m-5">seankel@comcast.net</a>
-          <a href="https://www.linkedin.com/in/sean-kelly-382886221" target="_blank" className="text-blue-600 hover:underline m-5">Linkedin</a>
-          <a href="https://github.com/MrPork1" target="_blank" className="text-blue-600 hover:underline m-5">Github</a>
-          <a href="./SeanKelly_Resume_Bachelors.pdf" download className="text-blue-600 hover:underline m-5">Resume</a>
+          <a href="tel:+4255234037" className={`${helvLightReg.className} text-blue-600 hover:underline my-5`}>+1 (425)-523-4037</a>
+          <a href="mailto:seankel@comcast.net" className={`${helvLightReg.className} text-blue-600 hover:underline m-5`}>seankel@comcast.net</a>
+          <a href="https://www.linkedin.com/in/sean-kelly-382886221" target="_blank" className={`${helvLightReg.className} text-blue-600 hover:underline m-5`}>Linkedin</a>
+          <a href="https://github.com/MrPork1" target="_blank" className={`${helvLightReg.className} text-blue-600 hover:underline m-5`}>Github</a>
+          <a href="./SeanKelly_Resume_Bachelors.pdf" download className={`${helvLightReg.className} text-blue-600 hover:underline m-5`}>Resume</a>
         </div>
         <div className="flex">
           <Button title="Education" onPress={"#education"} />

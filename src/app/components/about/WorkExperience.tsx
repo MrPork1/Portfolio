@@ -1,11 +1,14 @@
 import React from "react";
+import localFont from 'next/font/local';
+
+const helvLightReg = localFont({ src: '../../HelveticaLightRegular.otf' });
 
 const WorkExperience = () => {
   return <div>
-    <div>
+    <div className={helvLightReg.className}>
       <div className="grid grid-cols-2" id="workexperience">
         <div className="col-span-full text-[38px] h-24 border-b border-t border-black flex items-center justify-center">
-          <p className="mr-[370px]">Work Experience</p>
+          <p className="mr-[375px]">Work Experience</p>
         </div>
         <div className="col-span-full h-10">
         </div>
@@ -21,9 +24,9 @@ const WorkExperience = () => {
                   <p>January 2023 - June 2023</p>
                 </div>
               </div>
-              <div className="mb-6 ml-4 mt-[-47px] w-4/5">
+              <div className="mb-6 ml-4 mt-[-49px] w-4/5">
                 <h4 className="text-[16px]">
-                  <ul className="ml-20 list-disc">
+                  <ul className="ml-20 list-disc leading-7">
                     <li>Communicated with the team as the product owner, tasked with the overall vision of the project and the completion of the project.</li>
                     <li>Delegated tasks to team members, clearly communicating what must be accomplished.</li>
                     <li>Created the profile screen.
@@ -48,9 +51,9 @@ const WorkExperience = () => {
                   <p>May 2019 - January 2022</p>
                 </div>
               </div>
-              <div className="mb-6 ml-4 mt-[-47px] w-4/5">
+              <div className="mb-6 ml-4 mt-[-49px] w-4/5">
                 <h4 className="text-[16px]">
-                  <ul className="ml-20 list-disc">
+                  <ul className="ml-20 list-disc leading-7">
                     <li>Money handling with the cashiers and food related items.</li>
                     <li>Helped customers with their problems using excellent customer relation skills
                       that allowed me to communicate well and understand the customers' needs and help to fulfill them.</li>

@@ -1,8 +1,11 @@
 import React from "react";
+import localFont from 'next/font/local';
+
+const helvLightReg = localFont({ src: '../../HelveticaLightRegular.otf' });
 
 const Education = () => {
   return <div>
-    <div className="m-10 bg-[#E8E6E6] p-10 scroll-smooth" id="education">
+    <div className={`${helvLightReg.className} m-10 bg-[#E8E6E6] p-10 scroll-smooth`} id="education">
       <div className="flex items-center justify-center">
         <div className="text-left">
           <p className="text-[38px] mb-5">Education</p>
@@ -12,7 +15,7 @@ const Education = () => {
               <p className="my-2">Bellevue College</p>
               <p>3.769 GPA</p>
             </div>
-            <div className="ml-10">
+            <div className="ml-10 text-[18px]">
               <p>Classes</p>
               <div className="flex flex-col">
                 <ul className="ml-7 list-disc">
