@@ -3,6 +3,7 @@
 import React from "react";
 import localFont from 'next/font/local'
 import { Carousel } from "flowbite-react";
+import Image from "next/image";
 
 const myFont = localFont({ src: '../DroidSerif.ttf' });
 const helvLightReg = localFont({ src: '../HelveticaLightRegular.otf' });
@@ -46,61 +47,61 @@ const ProjectsPage = () => {
       <div className="flex justify-center mt-5">
         <div className="grid grid-cols-4 gap-8">
           <div>
-            <img src="/envkopictures/login.jpg" className="w-[220px]" style={{borderRadius: 30}}></img>
+            <img src="/envkopictures/login.jpg" className="w-[220px]" style={{ borderRadius: 30 }}></img>
           </div>
           <div>
-            <img src="/envkopictures/spending-dollar.jpg" className="w-[220px]" style={{borderRadius: 30}}></img>
+            <img src="/envkopictures/spending-dollar.jpg" className="w-[220px]" style={{ borderRadius: 30 }}></img>
             <p className="italic w-[100%] text-center">Bank account, spending screen</p>
           </div>
           <div>
-            <img src="/envkopictures/spending-co2.jpg" className="w-[220px]" style={{borderRadius: 30}}></img>
+            <img src="/envkopictures/spending-co2.jpg" className="w-[220px]" style={{ borderRadius: 30 }}></img>
           </div>
           <div>
-            <img src="/envkopictures/investing-dollar.jpg" className="w-[220px]" style={{borderRadius: 30}}></img>
+            <img src="/envkopictures/investing-dollar.jpg" className="w-[220px]" style={{ borderRadius: 30 }}></img>
           </div>
           <div>
-            <img src="/envkopictures/investing-search.jpg" className="w-[220px]" style={{borderRadius: 30}}></img>
+            <img src="/envkopictures/investing-search.jpg" className="w-[220px]" style={{ borderRadius: 30 }}></img>
           </div>
           <div>
-            <img src="/envkopictures/investing-search-manage-stock.jpg" className="w-[220px]" style={{borderRadius: 30}}></img>
+            <img src="/envkopictures/investing-search-manage-stock.jpg" className="w-[220px]" style={{ borderRadius: 30 }}></img>
           </div>
           <div>
-            <img src="/envkopictures/investing-apple-dollar-graph.jpg" className="w-[220px]" style={{borderRadius: 30}}></img>
+            <img src="/envkopictures/investing-apple-dollar-graph.jpg" className="w-[220px]" style={{ borderRadius: 30 }}></img>
           </div>
           <div>
-            <img src="/envkopictures/investing-apple-dollar-news.jpg" className="w-[220px]" style={{borderRadius: 30}}></img>
+            <img src="/envkopictures/investing-apple-dollar-news.jpg" className="w-[220px]" style={{ borderRadius: 30 }}></img>
           </div>
           <div>
-            <img src="/envkopictures/investing-apple-dollar-earnings.jpg" className="w-[220px]" style={{borderRadius: 30}}></img>
+            <img src="/envkopictures/investing-apple-dollar-earnings.jpg" className="w-[220px]" style={{ borderRadius: 30 }}></img>
           </div>
           <div>
-            <img src="/envkopictures/investing-apple-co2.jpg" className="w-[220px]" style={{borderRadius: 30}}></img>
+            <img src="/envkopictures/investing-apple-co2.jpg" className="w-[220px]" style={{ borderRadius: 30 }}></img>
           </div>
           <div>
-            <img src="/envkopictures/realestate-map.jpg" className="w-[220px]" style={{borderRadius: 30}}></img>
+            <img src="/envkopictures/realestate-map.jpg" className="w-[220px]" style={{ borderRadius: 30 }}></img>
           </div>
           <div>
-            <img src="/envkopictures/realestate-map-search.jpg" className="w-[220px]" style={{borderRadius: 30}}></img>
+            <img src="/envkopictures/realestate-map-search.jpg" className="w-[220px]" style={{ borderRadius: 30 }}></img>
           </div>
           <div>
-            <img src="/envkopictures/realestate-map-house.jpg" className="w-[220px]" style={{borderRadius: 30}}></img>
+            <img src="/envkopictures/realestate-map-house.jpg" className="w-[220px]" style={{ borderRadius: 30 }}></img>
             <p className="italic w-[100%] text-center">House info using API</p>
           </div>
           <div>
-            <img src="/envkopictures/realestate-house-dollar.jpg" className="w-[220px]" style={{borderRadius: 30}}></img>
+            <img src="/envkopictures/realestate-house-dollar.jpg" className="w-[220px]" style={{ borderRadius: 30 }}></img>
           </div>
           <div>
-            <img src="/envkopictures/realestate-house-dollar-facts.jpg" className="w-[220px]" style={{borderRadius: 30}}></img>
+            <img src="/envkopictures/realestate-house-dollar-facts.jpg" className="w-[220px]" style={{ borderRadius: 30 }}></img>
           </div>
           <div>
-            <img src="/envkopictures/realestate-house-co2.jpg" className="w-[220px]" style={{borderRadius: 30}}></img>
+            <img src="/envkopictures/realestate-house-co2.jpg" className="w-[220px]" style={{ borderRadius: 30 }}></img>
           </div>
           <div>
-            <img src="/envkopictures/profile-assets.jpg" className="w-[220px]" style={{borderRadius: 30}}></img>
+            <img src="/envkopictures/profile-assets.jpg" className="w-[220px]" style={{ borderRadius: 30 }}></img>
             <p className="italic w-[100%] text-center">All asset information</p>
           </div>
           <div>
-            <img src="/envkopictures/profile-footprint.jpg" className="w-[220px]" style={{borderRadius: 30}}></img>
+            <img src="/envkopictures/profile-footprint.jpg" className="w-[220px]" style={{ borderRadius: 30 }}></img>
             <p className="italic w-[100%] text-center">Footprint information using assets</p>
           </div>
           <div>
@@ -193,6 +194,25 @@ const ProjectsPage = () => {
           </ul>
         </div>
       </div>
+      <div className="flex justify-center mt-5">
+        <div className="grid grid-cols-2 gap-10">
+          <div>
+            <Image src="/ISIT420pictures/Picture1.png" alt="Query1" width={325} height={0} />
+          </div>
+          <div>
+            <Image src="/ISIT420pictures/Picture2.png" alt="Query2" width={325} height={0} />
+          </div>
+          <div>
+            <Image src="/ISIT420pictures/Picture3.png" alt="Query3" width={325} height={0} />
+          </div>
+          <div>
+            <Image src="/ISIT420pictures/Picture4.png" alt="Query4" width={325} height={0} />
+          </div>
+          <div className="col-span-2">
+            <Image src="/ISIT420pictures/SQLDatabaseDiagram.png" alt="SQLDatabaseDiagram" width={600} height={0} />
+          </div>
+        </div>
+      </div>
       <div className="flex justify-center mt-5 mb-20">
         <div className="bg-[#074151] text-white px-4 py-2 text-[14px] tracking-[0.2em] mr-5">Linux</div>
         <div className="bg-[#074151] text-white px-8 py-2 text-[14px] tracking-[0.2em] mr-5">SQL</div>
@@ -216,7 +236,7 @@ const ProjectsPage = () => {
     <div id="webdevelopmentcanvasgame">
       <div className="flex items-center justify-center">
         <div className="w-[50%] text-center sm:w-[23.5%] md:w-[23.5%]">
-          <a href="https://mrpork1.github.io/tmawesome---Canvas-Game/y" target="_blank" className={`${myFont.className} text-[20px] font-bold underline`}>Web Development (HTML, CSS, Boostrap, Javascript)</a>
+          <a href="https://mrpork1.github.io/tmawesome---Canvas-Game/" target="_blank" className={`${myFont.className} text-[20px] font-bold underline`}>Web Development (HTML, CSS, Boostrap, Javascript)</a>
           <ul className="text-left list-disc mt-5">
             <li className="text-[17px]"> Created canvas game with added sounds, box colliders, and health counter</li>
           </ul>
