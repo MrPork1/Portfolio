@@ -110,8 +110,9 @@ const ProjectsPage = () => {
         </div>
       </div>
       <div className="flex justify-center mt-5 mb-20">
-        <div className="bg-[#074151] text-white px-4 py-2 text-[14px] tracking-[0.2em] mr-5 ">Android Studios</div>
-        <div className="bg-[#074151] text-white px-8 py-2 text-[14px] tracking-[0.2em] ">Kotlin</div>
+        <div className="bg-[#074151] text-white px-4 py-2 text-[14px] tracking-[0.2em] mr-5 ">React Native</div>
+        <div className="bg-[#074151] text-white px-8 py-2 text-[14px] tracking-[0.2em] mr-5 ">API</div>
+        <div className="bg-[#074151] text-white px-8 py-2 text-[14px] tracking-[0.2em] ">Javascript</div>
       </div>
     </div>
     <div id="androidstudioskotlin">
