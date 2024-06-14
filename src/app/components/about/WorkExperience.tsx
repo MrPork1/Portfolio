@@ -19,6 +19,26 @@ const WorkExperience = () => {
               <div className="flex-start flex items-center pt-3">
                 <div className="-ml-[6px] mr-3 h-[11px] w-[11px] rounded-full bg-black dark:bg-neutral-500"></div>
                 <div className="md:relative md:right-[350px]">
+                  <p>Consumer Direct Care Network</p>
+                  <p>IT Service Desk Analyst I</p>
+                  <p>January 2024 - Present</p>
+                </div>
+              </div>
+              <div className="mb-6 mt-[30px] mr-5 md:mr-0 md:ml-4 md:w-4/5 md:mt-[-49px]">
+                <h4 className="text-[16px]">
+                  <ul className="ml-10 md:ml-20 list-disc leading-7">
+                    <li>Served as first point of contact for internal employees seeking technical assistance</li>
+                    <li>Utilized customer service skills along with attention to detail and troubleshooting techniques to solve technical issues</li>
+                    <li>Create and ran PowerShell scripts to improve productivity</li>
+                    <li>Programmed Typescript and VBA scripts in Excel to create functions that increased productivity and decreased errors</li>
+                  </ul>
+                </h4>
+              </div>
+            </li>
+            <li>
+              <div className="flex-start flex items-center pt-3">
+                <div className="-ml-[6px] mr-3 h-[11px] w-[11px] rounded-full bg-black dark:bg-neutral-500"></div>
+                <div className="md:relative md:right-[350px]">
                   <p>envko</p>
                   <p>Software Developer | Product Owner</p>
                   <p>January 2023 - June 2023</p>
@@ -53,7 +73,7 @@ const WorkExperience = () => {
               </div>
               <div className="mb-6 mt-[30px] mr-5 md:mr-0 md:ml-4 md:w-4/5 md:mt-[-49px]">
                 <h4 className="text-[16px]">
-                <ul className="ml-10 md:ml-20 list-disc leading-7">
+                  <ul className="ml-10 md:ml-20 list-disc leading-7">
                     <li>Money handling with the cashiers and food related items.</li>
                     <li>Helped customers with their problems using excellent customer relation skills
                       that allowed me to communicate well and understand the customers needs and help to fulfill them.</li>
