@@ -27,10 +27,10 @@ const WorkExperience = () => {
               <div className="mb-6 mt-[30px] mr-5 md:mr-0 md:ml-4 md:w-4/5 md:mt-[-49px]">
                 <h4 className="text-[16px]">
                   <ul className="ml-10 md:ml-20 list-disc leading-7">
-                    <li>Served as first point of contact for internal employees seeking technical assistance</li>
-                    <li>Utilized customer service skills along with attention to detail and troubleshooting techniques to solve technical issues</li>
-                    <li>Create and ran PowerShell scripts to improve productivity</li>
-                    <li>Programmed Typescript and VBA scripts in Excel to create functions that increased productivity and decreased errors</li>
+                    <li>Served as first point of contact for internal employees seeking technical assistance.</li>
+                    <li>Utilized customer service skills along with attention to detail and troubleshooting techniques to solve technical issues.</li>
+                    <li>Created and ran PowerShell scripts to improve productivity.</li>
+                    <li>Programmed Typescript and VBA scripts in Excel to create functions that increased productivity and decreased errors.</li>
                   </ul>
                 </h4>
               </div>
@@ -53,11 +53,11 @@ const WorkExperience = () => {
                       This includes updating data from local storage to show the user as well as added listeners that listen for activity across the application,
                       and updates the profile screen to show the latest changes.</li>
                     <li>Implemented real estate using data from an API,
-                      showing that data on the screen an adding charts and graphs using maps and filters to show a specific set of data.</li>
+                      showing that data on the screen and adding charts and graphs using maps and filters to show a specific set of data.</li>
                     <li>Implemented a caching system that saves API data locally to reduce calls to the server,
                       and only calls the server when data has been called to be updated.</li>
-                    <li>Viewing of stock and co2 info. This includes adding live data that is updated using  setInterval and useEffects that continuously get data from the server.</li>
-                    <li>Added the ability for the user to add country codes for their phone numbers when they  make an account.</li>
+                    <li>Viewing of stock and co2 info. This includes adding live data that is updated using setInterval and useEffects that continuously get data from the server.</li>
+                    <li>Added the ability for the user to add country codes for their phone numbers when they make an account.</li>
                   </ul>
                 </h4>
               </div>
@@ -79,7 +79,7 @@ const WorkExperience = () => {
                       that allowed me to communicate well and understand the customers needs and help to fulfill them.</li>
                     <li>Lead the floor staff.</li>
                     <li>Managed end of night money and safe operations.</li>
-                    <li>Oversaw projectors and all technical related issues..</li>
+                    <li>Oversaw projectors and all technical related issues.</li>
                     <li>With excellent customer relation skills, I was able to help customers with ticket issues, give refunds, passes, and helped to keep a clean and efficient running cinema.</li>
                   </ul>
                 </h4>
