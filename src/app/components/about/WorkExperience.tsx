@@ -27,8 +27,7 @@ const WorkExperience = () => {
               <div className="mb-6 mt-[30px] mr-5 md:mr-0 md:ml-4 md:w-4/5 md:mt-[-49px]">
                 <h4 className="text-[16px]">
                   <ul className="ml-10 md:ml-20 list-disc leading-7">
-                    <li>Served as first point of contact for internal employees seeking technical assistance.</li>
-                    <li>Utilized customer service skills along with attention to detail and troubleshooting techniques to solve technical issues.</li>
+                    <li>Served as first point of contact for internal employees seeking technical assistance by utilizing and honing customer service skills along with attention to detail and troubleshooting techniques to solve technical issues.</li>
                     <li>Created and ran PowerShell scripts to improve productivity.</li>
                     <li>Programmed Typescript and VBA scripts in Excel to create functions that increased productivity and decreased errors.</li>
                   </ul>
