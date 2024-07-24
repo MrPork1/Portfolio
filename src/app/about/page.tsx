@@ -26,7 +26,7 @@ const About = () => {
           <p className="text-[56px] mt-10">About</p>
         </div>
         <p className={`${helvLightReg.className} mt-5 text-[18px] leading-10 w-[100%] md:w-[75%] lg:w-[75%]`}>I am a <b>Software Developer</b> with
-          over a decade of computer and programming experience both in college and in my spare time.
+          many years of computer and programming experience both in college and in my spare time.
           Business skills mixed together with leadership experiences make for a well-rounded full-stack developer.</p>
         <div className="flex flex-wrap">
           <a href="tel:+4255234037" className={`${helvLightReg.className} text-blue-600 hover:underline my-5`}>+1 (425)-523-4037</a>
