@@ -20,7 +20,7 @@ const WorkExperience = () => {
                 <div className="-ml-[6px] mr-3 h-[11px] w-[11px] rounded-full bg-black dark:bg-neutral-500"></div>
                 <div className="md:relative md:right-[350px]">
                   <p>Consumer Direct Care Network</p>
-                  <p>IT Service Desk Analyst I</p>
+                  <p>IT Service Desk Analyst II</p>
                   <p>January 2024 - Present</p>
                 </div>
               </div>
@@ -28,8 +28,10 @@ const WorkExperience = () => {
                 <h4 className="text-[16px]">
                   <ul className="ml-10 md:ml-20 list-disc leading-7">
                     <li>Served as first point of contact for internal employees seeking technical assistance by utilizing and honing customer service skills along with attention to detail and troubleshooting techniques to solve technical issues.</li>
-                    <li>Created and ran PowerShell scripts to improve productivity.</li>
-                    <li>Programmed Typescript and VBA scripts in Excel to create functions that increased productivity and decreased errors.</li>
+                    <li>Created and ran PowerShell scripts to improve productivity and security.</li>
+                    <li>Created and maintained team documentation in the form of SOPs to help coworkers complete complex tasks.</li>
+                    <li>Programmed Excel Scripts in Typescript and created VBA scripts to create functions that increased productivity and decreased errors.</li>
+                    <li>Utilized Power Automate to create workflows to increase productivity by connecting to Office 365 services and third-party APIs.</li>
                   </ul>
                 </h4>
               </div>
